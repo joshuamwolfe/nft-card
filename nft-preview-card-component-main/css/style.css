@@ -11,7 +11,7 @@
 
 body {
     background-color: var(--main-bg-color);
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;
 }
 
 body p {
@@ -45,6 +45,7 @@ body p {
     border-radius: 10px;
     padding: 20px;
     background-color: var(--card-bg-color);
+    flex-basis: auto;
 }
 
 .flex-column img {
@@ -53,6 +54,12 @@ body p {
     border-radius: 10px;
 }
 
-.flex-column-1 {
-    height: 25px;
+.flex-column-3 {
+    text-align: right;
+}
+
+.flex-column-2 img {
+    height: 33px;
+    width: 33px;
+    justify-content: left;
 }
