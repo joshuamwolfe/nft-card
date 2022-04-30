@@ -11,16 +11,22 @@
     --soft-blue-color: #8bacd9;
 }
 
-body {
-    background-color: var(--main-bg-color);
+body{
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    background-color: var(--main-bg-color);
 }
 
 body p {
     font-size: 18px;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--line-color);
+    border: none;
+    margin: 5%;
 }
 
 /*miscellaneous styles*/
@@ -41,6 +47,7 @@ body p {
 /* Flexbox Styles */
 .parent-container {
     padding: 12%;
+
 }
 .flex-column {
     height: 596px;
@@ -51,26 +58,31 @@ body p {
     flex-basis: auto;
 }
 
+.flex-column p {
+    padding: 10px 0;
+}
+
 .flex-column img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.flex-column-3 {
-    text-align: right;
+.flex-column-2 img {
+    height: 33px;
+    width: 33px;
 }
 
 .flex-column-2 img {
     height: 33px;
     width: 33px;
-    justify-content: left;
 }
 
 .flex-row {
     align-items: center;
     color: var(--white-color);
     display: flex;
+    flex-direction: row;
     max-height: 100%;
     justify-content: center;
 }
