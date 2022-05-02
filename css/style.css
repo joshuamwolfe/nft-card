@@ -87,7 +87,7 @@ hr {
 /*Container to Alight Paragraph with time left & price*/
 .wrapper {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
 }
 
 .wrapper-profile {
