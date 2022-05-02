@@ -51,6 +51,7 @@ hr {
     padding: 20px;
     background-color: var(--card-bg-color);
     flex-basis: auto;
+    overflow: auto;
 }
 
 .flex-column p {
@@ -86,7 +87,12 @@ hr {
 /*Container to Alight Paragraph with time left & price*/
 .wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+}
+
+.wrapper-profile {
+    display: flex;
+    justify-content: center;
 }
 
 .profile-image {
