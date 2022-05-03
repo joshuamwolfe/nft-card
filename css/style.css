@@ -45,13 +45,12 @@ hr {
 
 /* Flexbox Styles */
 .flex-column {
-    height: 596px;
+    height: auto;
     width: 350px;
     border-radius: 10px;
     padding: 20px;
     background-color: var(--card-bg-color);
     flex-basis: auto;
-    overflow: auto;
 }
 
 .flex-column p {
@@ -62,16 +61,6 @@ hr {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-}
-
-.flex-column-2 img {
-    height: 33px;
-    width: 33px;
-}
-
-.flex-column-2 img {
-    height: 33px;
-    width: 33px;
 }
 
 .flex-row {
