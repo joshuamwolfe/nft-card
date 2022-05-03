@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cedarville+Cursive&family=Crafty+Girls&family=Finger+Paint&family=Geo&family=Give+You+Glory&family=Just+Me+Again+Down+Here&family=La+Belle+Aurore&family=Lemon&family=Major+Mono+Display&family=Moo+Lah+Lah&family=Mr+De+Haviland&family=Ole&family=Oooh+Baby&family=Pirata+One&family=Sansita+Swashed&family=Sue+Ellen+Francisco&family=Waiting+for+the+Sunrise&display=swap');
+
+:root {
+    --card-bg-color: #15263f;
+    --cyan-color: #00fff8;
+    --line-color: #2e405a;
+    --main-bg-color: #0d192c;
+    --soft-blue-color: #8bacd9;
+    --white-color: #ffffff;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    flex: 1;
+    font-family: 'Outfit', sans-serif;
+    height: auto;
+    justify-content: center;
+}
+
+main {
+    border-radius: 1rem;
+    background-color: var(--card-bg-color);
+    margin: 5rem;
+    padding: 2rem;
+    width: 350px;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main h1 {
+    color: white;
+}
+
+main hr {
+    background-color: var(--line-color);
+    border: none;
+    height: 0.09rem;
+    margin: 0.5rem;
+}
+
+.heading-1 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+footer {
+    display: flex;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*.attribution {*/
+/*    display: flex;*/
+/*    font-size: 11px;*/
+/*    text-align: center;*/
+/*    margin-top: 10%;*/
+/*}*/
+
+/*.attribution a {*/
+/*    color: hsl(228, 45%, 44%);*/
+/*}*/
+
+/*Container to Alight Paragraph with time left & price*/
+.time-left-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image-section {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-image-section img {
+    height: 33px;
+    width: 33px;
+}
