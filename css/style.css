@@ -44,7 +44,7 @@ main hr {
     margin: 0.5rem;
 }
 
-main img {
+main > img {
     max-width: 18.125rem;
     border-radius: 1rem;
 }
@@ -96,5 +96,4 @@ footer {
 .profile-image-section img {
     height: 33px;
     width: 33px;
-    border: 0.031rem solid white;
 }
