@@ -13,24 +13,24 @@ body {
     background-color: var(--main-bg-color);
     box-sizing: border-box;
     display: flex;
-    flex-basis: auto;
-    flex-direction: row;
+    flex-basis: fit-content;
+    flex-direction: column;
     flex: 1;
     font-family: 'Outfit', sans-serif;
     height: auto;
-    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /*height: 100vh;*/
 }
 
 main {
     border-radius: 1rem;
     background-color: var(--card-bg-color);
-    margin: 5rem;
-    padding: 2rem;
-    width: 350px;
-}
-
-main img {
-    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 main h1 {
@@ -48,6 +48,14 @@ main hr {
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 0;
+}
+
+.image-container {
+    max-width: 100vw;
+}
+
+.image-container img {
+    border-radius: 1rem;
 }
 
 footer {
