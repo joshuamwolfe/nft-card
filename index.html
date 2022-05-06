@@ -12,28 +12,42 @@
     <title>Frontend Mentor | NFT preview card component</title>
 </head>
 <body>
-<main class="primary-container">
-    <img src="./images/image-equilibrium.jpg" alt="">
-    <h1>Equilibrium #3429</h1>
-    <p>Our Equilibrium collection promotes balance and calm.</p>
-    <div class="time-left-section">
-        <p> 0.041 ETH </p>
-        <P> 3 days left </P>
-    </div>
-    <hr/>
-    <div class="profile-image-section">
-        <p><img alt="" class="profile-image" src="images/image-avatar.png"> Creation of Jules Wyvern</p>
-    </div>
-</main>
-    <footer>
-        <div class="attribution">
-            Challenge by
-            <a href="https://www.frontendmentor.io?ref=challenge"
-               target="_blank">
-                Frontend Mentor
-            </a>. Coded by
-            <a href="https://github.com/joshuamwolfe/nft-card">Joshua Wolfe</a>
+    <main class="card-container">
+        <div class="card-img-container">
+            <img class="card-cube-image" src="./images/image-equilibrium.jpg" alt="clear cube">
         </div>
-    </footer>
+
+        <div class="card-info-container">
+            <p class="card-title">Equilibrium #3429</p>
+            <p class="card-description">Our Equilibrium collection promotes balance and calm.</p>
+        </div>
+
+        <div class="card-data-container">
+            <div class="card-number-container">
+                <img class="card-number-icon"src="./images/icon-ethereum.svg" alt="blue diamond">
+                <p class="card-number">O.041 ETH</p>
+            </div>
+            <div class="card-time-container">
+                <img src="./images/icon-clock.svg" alt="clock" class="card-time-icon">
+                <p class="card-time">3 days left</p>
+            </div>
+        </div>
+
+        <div class="card-author-container">
+            <img src="./images/image-avatar.png" alt="author profile picture" class="card-author-image">
+            <p class="card-author">Creation of <span class="card-author-name">Jules Wyvern</span></p>
+        </div>
+    </main>
+
+<!--    <footer>-->
+<!--        <div class="attribution">-->
+<!--            Challenge by-->
+<!--            <a href="https://www.frontendmentor.io?ref=challenge"-->
+<!--               target="_blank">-->
+<!--                Frontend Mentor-->
+<!--            </a>. Coded by-->
+<!--            <a href="https://github.com/joshuamwolfe/nft-card">Joshua Wolfe</a>-->
+<!--        </div>-->
+<!--    </footer>-->
 </body>
 </html>
