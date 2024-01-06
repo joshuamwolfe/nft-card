@@ -9,36 +9,25 @@
     --white-color: #ffffff;
 }
 
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
 body {
     align-items: center;
     background-color: var(--main-bg-color);
     display: flex;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .card-container {
     background-color: var(--card-bg-color);
-    border-radius: 1rem;
-    margin: 10rem;
-    max-height: 60rem;
-    max-width: 35rem;
-    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 350px;
+    padding: 1.5rem;
 }
 
 .card-container hr {
@@ -59,25 +48,25 @@ body {
 .card-cube-image {
     border-radius: 0.8rem;
     height: 30.02rem;
-    width: 30.02rem;
+    width: 100%;
 }
 
 .card-eye-image {
-    position: absolute;
     content: "";
-    width: 4.8rem;
     height: 4.8rem;
-    top: 50%;
     left: 50%;
     opacity: 0;
+    position: absolute;
+    top: 50%;
     transform: translate(-50%, -50%);
+    width: 4.8rem;
 }
 /*Card Information Section*/
 .card-info-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 2.4rem;
-    width: 30.02rem;
+    width: 23.02rem;
 }
 
 .card-title {
@@ -94,7 +83,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 2.4rem;
-    width: 30.01rem;
+    width: 100%;
 }
 
 .card-number {
@@ -133,6 +122,7 @@ body {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 2.6rem;
+    width: 20rem;
 }
 
 .card-author-container {
@@ -179,6 +169,7 @@ footer {
     display: flex;
     font-size: 11px;
     text-align: center;
+    justify-content: space-between;
 }
 
 .attribution {
